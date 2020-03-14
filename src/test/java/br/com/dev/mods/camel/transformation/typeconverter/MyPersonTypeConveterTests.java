@@ -1,17 +1,12 @@
-package br.com.dev.mods.camel.typeconverter;
+package br.com.dev.mods.camel.transformation.typeconverter;
 
+import br.com.dev.mods.camel.transformation.MyPersonGreeter;
+import br.com.dev.mods.camel.transformation.MyPersonTypeConverter;
 import org.apache.camel.*;
 import org.apache.camel.builder.RouteBuilder;
-import org.apache.camel.component.mock.MockEndpoint;
-import org.apache.camel.impl.DefaultCamelContext;
 import org.apache.camel.test.junit5.CamelTestSupport;
-import org.apache.camel.test.spring.junit5.CamelSpringTest;
-import org.apache.camel.test.spring.junit5.CamelSpringTestSupport;
 import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.support.AbstractApplicationContext;
-import org.springframework.test.annotation.DirtiesContext;
-import org.springframework.test.context.ContextConfiguration;
+
 
 /**
  * @author marcosrufino

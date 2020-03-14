@@ -1,9 +1,7 @@
-package br.com.dev.mods.camel.typeconverter;
+package br.com.dev.mods.camel.transformation;
 
 import org.apache.camel.Converter;
-import org.apache.camel.TypeConverter;
 import org.apache.camel.TypeConverters;
-import org.springframework.stereotype.Component;
 
 /**
  * @author marcosrufino
@@ -12,9 +10,6 @@ import org.springframework.stereotype.Component;
 
 @Converter
 public class MyPersonTypeConverter implements TypeConverters {
-
-
-
 
     /**
      * Converts a String in the format of "firstName|lastName" to a {@link MyPerson}.

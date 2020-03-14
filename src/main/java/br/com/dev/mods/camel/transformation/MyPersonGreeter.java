@@ -1,4 +1,4 @@
-package br.com.dev.mods.camel.typeconverter;
+package br.com.dev.mods.camel.transformation;
 
 import org.springframework.stereotype.Component;
 
